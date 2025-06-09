@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RuthlessEfficiency</title>
+        <link rel="stylesheet" href="main.css">
+</head>
+<body class = "dark-theme">
+
+    <h1> Dark Souls 3 - ダークソウルIII 。</h1>
+  
+    <ul>
+
+    <li> A arma mais poderosa de Dark Souls 3 é a Pontiff Knight Curved Sword, ou PKCS.  </li>
+
+    <img src="https://static.wikia.nocookie.net/darksouls/images/c/c2/Pontiff_Knight_Curved_Sword.png/revision/latest?cb=20160612051907 alt="Imagem da web">
+
+    <p> Existem uma série de fatores que consolidam a posição da PKCS como a melhor arma do jogo, dentre elas: 
+    <li class="list"> Sua velocidade </li>
+    <li class="list"> Tamanho de Hitboxes</li>
+    <li class="list"> Builds</li:>
+    </p>
+<br>
+<p> Um golpe leve de PKCS em duas mãos dura 150ms, que é cerca de 100ms a menos do que a média dos reflexos humanos - 250ms. Isso quer dizer que, na maioria das situações, é virtualmente impossível reagir a um golpe, dificultando manobras defensivas contra esta arma.</p>
+
+
+<p>A PKCS é a maior arma de sua classe, as espadas curvas, que são, em virtude de seu dano, versatilidade e alcançe, a melhor classe de armas do jogo. Eis a tabela:</p>
+
+<table border="1">
+    <tr>
+      <th>Arma</th>
+      <th>Hitbox</th>
+    </tr>
+    <tr>
+      <td>PKCS</td>
+      <td>31.2688</td>
+    </tr>
+    <tr>
+      <td>Demon's Scar</td>
+      <td>29.8464</td>
+    </tr>
+    <tr>
+        <td>Scimitar</td>
+        <td>29.8464</td>
+    </tr>
+    <tr>
+        <td>Rotten Ghru Curved Sword</td>
+        <td>28.5324</td>
+    </tr>
+    <tr>
+        <td>Painting Guardian's Curved Sword</td>
+        <td>27.0583</td>
+    </tr>
+  </table>
+
+<p>
+    A build mais efetiva para PKCS é a quality. Ela é caracterizada por uma distribuição igualitária entre os atributos de força e destreza. Isso permite o usuário utilizar de maneira efetiva a grande esmagadora maioria das armas de jogo, pois sempre terá força e destreza o suficiente para empunhá-las. </p><br> Além disso, a 40/40 de força e destreza, isto é, os níveis de investimento destes níveis em uma build quality, são o suficiente para empunhar as melhores gimmics de força - como a Alabarda do Gundyr - enquanto preserva a efetividade de armas que requerem destreza para o uso efetivo, como rapieiras, adagas, e armas META específicas, tais quais a Ringed Knight Curved Sword e a Corvian Great Knife, ambas tendo como melhor build a quality. </p> <br>
+    Não apenas isso, mas as builds quality são extremamente econômicas, garantindo pleno investimento em vigor, vitalidade e outros atributos. Isso quer dizer que nunca será nescessário sacrificar pontos em prol de um determinado atributo, vida por dano, etc.
+</p>
+
+<p>Para assistir a PKCS em ação, acesse o vídeo: <a href="https://www.youtube.com/watch?v=V7F3A508hzI&pp=ygUQamVlbmluZSB2cyBmdXJ5eA%3D%3D">[Dark Souls 3] Battle of the GOATS, Best of 9 rematch vs FuryX (Top Tier Meta Duels, PC)</a>.</p>
+
+
+
+<
+
+    
+
+        </ul>
+
+        <div>
+            <button class = "button btn">Dark</button>
+        </div>
+
+
+        <script src="app.js"></script>
+        <noscript>You need to enable javascript to view the full site.</noscript>
+
+        <script src="app.js"></script>
+
+   
+</body>
+</html>
+
+
+
