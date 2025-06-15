@@ -1,0 +1,127 @@
+body {
+    font-family: monospace;
+}
+ul {
+    font-family: helvetica;
+}
+
+
+.light-theme {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url("https://images4.alphacoders.com/107/1073940.jpg");
+    
+    .card {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 15px;
+        border-radius: 25px;
+        text-align: center;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+        color: rgb(160, 136, 0);
+       
+      }
+
+      body {
+        font-family: monospace;
+        color: #00a732;
+        font-size: 18px;
+    }
+
+    header{
+        color:  rgb(0, 0, 0);
+    }
+
+    .categorias {
+        border-left: 2px solid rgb(160, 136, 0);
+        padding-left: 20px;
+        margin-left: 10px;
+      }
+      
+}
+
+
+.dark-theme {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url('https://i.redd.it/dito0kvh8y471.jpg');
+    .card {
+        background-color: rgba(44, 44, 44, 0.9);
+        padding: 15px;
+        border-radius: 25px;
+        text-align: center;
+        box-shadow: 0 0 10px rgb(69, 198, 221);
+        color: rgb(255, 255, 255);
+       
+      }
+
+      header{
+        color:  rgb(255, 255, 255);
+    }
+    
+    .categorias {
+        border-left: 2px solid rgb(125, 251, 255);
+        padding-left: 20px;
+        margin-left: 10px;
+      }
+}
+
+
+:root {
+    --lightthememaincolor: #fffffffa;
+    --white: #ffffff;
+    --darkthememaincolor: #242323;
+    --black: #000000;
+    --buttonfontColor: #ffffff;
+    --buttonbg: #000000;
+    --backgroundcolor: rgb(31, 31, 31,0.9);
+    --darkthemebackgroundcolor: rgb(222, 253, 255);
+
+}
+
+
+
+* {
+    color:var(--fontColor);
+font-family: helvetica;
+}
+
+.button{
+    color: var(--buttonfontColor);
+    background-color: var(--buttonBg);
+}
+
+.button:focus {outline-style: none;}
+
+.btn { 
+    position: absolute; 
+    top: 20px; 
+    left: 800px; 
+    height: 50px; 
+    width: 50px; 
+    border-radius: 50%; 
+    border: none; 
+    color: var(--buttonfontColor); 
+    background-color: var(--buttonbg); 
+    background-attachment: fixed;
+    position: fixed;
+    }
+
+
+    .justificado{
+        text-align: justify;
+        line-height: 1.3;
+    }
+
+  
+
+      .event{
+        margin-bottom: 30px
+      }
+
+      
