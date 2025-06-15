@@ -1,10 +1,23 @@
+
+:root {
+    --lightthememaincolor: #fffffffa;
+    --white: #ffffff;
+    --darkthememaincolor: #242323;
+    --black: #000000;
+    --buttonfontColor: #ffffff;
+    --buttonbg: #000000;
+    --backgroundcolor: rgb(31, 31, 31,0.9);
+    --darkthemebackgroundcolor: rgb(222, 253, 255);
+    --imagesize: 75%;
+   
+}
+
 body {
     font-family: monospace;
 }
 ul {
     font-family: helvetica;
 }
-
 
 .light-theme {
     background-size: cover;
@@ -42,7 +55,6 @@ ul {
       
 }
 
-
 .dark-theme {
     background-size: cover;
     background-position: center;
@@ -70,21 +82,6 @@ ul {
         margin-left: 10px;
       }
 }
-
-
-:root {
-    --lightthememaincolor: #fffffffa;
-    --white: #ffffff;
-    --darkthememaincolor: #242323;
-    --black: #000000;
-    --buttonfontColor: #ffffff;
-    --buttonbg: #000000;
-    --backgroundcolor: rgb(31, 31, 31,0.9);
-    --darkthemebackgroundcolor: rgb(222, 253, 255);
-
-}
-
-
 
 * {
     color:var(--fontColor);
@@ -124,4 +121,106 @@ font-family: helvetica;
         margin-bottom: 30px
       }
 
-      
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+* {box-sizing:border-box}
+
+/* Container do slideshow. Determina uma espécie de "caixinha" que contém o slide.  */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Esconde as imagens para que elas não apareçam ao mesmo tempo.*/
+.mySlides {
+  display: none;
+}
+
+/* Define as características das setinhas. */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Posicionamento das setinhas em relação as imagens/conteiner. */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 3px;
+}
+
+
+/* Legendas das imagens.*/
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Numeração das imagens. */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Características dos pontinhos */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Muda a cor do pontinho ativo, deixando-o mais escuro.*/
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Dá a animação desvanescente pra foto. */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Classe que define o tamanho das imagens.*/
+.imagesize{
+    width: var(--imagesize);
+    height: var(--imagesize);
+}
