@@ -1,0 +1,226 @@
+
+:root {
+    --lightthememaincolor: #fffffffa;
+    --white: #ffffff;
+    --darkthememaincolor: #242323;
+    --black: #000000;
+    --buttonfontColor: #ffffff;
+    --buttonbg: #000000;
+    --backgroundcolor: rgb(31, 31, 31,0.9);
+    --darkthemebackgroundcolor: rgb(222, 253, 255);
+    --imagesize: 75%;
+   
+}
+
+body {
+    font-family: monospace;
+}
+ul {
+    font-family: helvetica;
+}
+
+.light-theme {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url("https://images4.alphacoders.com/107/1073940.jpg");
+    
+    .card {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 15px;
+        border-radius: 25px;
+        text-align: center;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+        color: rgb(160, 136, 0);
+       
+      }
+
+      body {
+        font-family: monospace;
+        color: #00a732;
+        font-size: 18px;
+    }
+
+    header{
+        color:  rgb(0, 0, 0);
+    }
+
+    .categorias {
+        border-left: 2px solid rgb(160, 136, 0);
+        padding-left: 20px;
+        margin-left: 10px;
+      }
+      
+}
+
+.dark-theme {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url('https://i.redd.it/dito0kvh8y471.jpg');
+    .card {
+        background-color: rgba(44, 44, 44, 0.9);
+        padding: 15px;
+        border-radius: 25px;
+        text-align: center;
+        box-shadow: 0 0 10px rgb(69, 198, 221);
+        color: rgb(255, 255, 255);
+       
+      }
+
+      header{
+        color:  rgb(255, 255, 255);
+    }
+    
+    .categorias {
+        border-left: 2px solid rgb(125, 251, 255);
+        padding-left: 20px;
+        margin-left: 10px;
+      }
+}
+
+* {
+    color:var(--fontColor);
+font-family: helvetica;
+}
+
+.button{
+    color: var(--buttonfontColor);
+    background-color: var(--buttonBg);
+}
+
+.button:focus {outline-style: none;}
+
+.btn { 
+    position: absolute; 
+    top: 20px; 
+    left: 800px; 
+    height: 50px; 
+    width: 50px; 
+    border-radius: 50%; 
+    border: none; 
+    color: var(--buttonfontColor); 
+    background-color: var(--buttonbg); 
+    background-attachment: fixed;
+    position: fixed;
+    }
+
+
+    .justificado{
+        text-align: justify;
+        line-height: 1.3;
+    }
+
+  
+
+      .event{
+        margin-bottom: 30px
+      }
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+* {box-sizing:border-box}
+
+/* Container do slideshow. Determina uma espécie de "caixinha" que contém o slide.  */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Esconde as imagens para que elas não apareçam ao mesmo tempo.*/
+.mySlides {
+  display: none;
+}
+
+/* Define as características das setinhas. */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Posicionamento das setinhas em relação as imagens/conteiner. */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 3px;
+}
+
+
+/* Legendas das imagens.*/
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Numeração das imagens. */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Características dos pontinhos */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Muda a cor do pontinho ativo, deixando-o mais escuro.*/
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Dá a animação desvanescente pra foto. */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Classe que define o tamanho das imagens.*/
+.imagesize{
+    width: var(--imagesize);
+    height: var(--imagesize);
+}
