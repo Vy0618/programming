@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style >Perfil - Vinicius Azevedot</title>
+    <link rel = "stylesheet" href = "main.css">
+</head>
+<body class = "standarttheme">
+    <header><h2> Perfil - Vinicius Azevedo</h2></header>
+    <hr>
+    <section class = background>
+    </section>
+   
+        
+<p class = "standarttheme text-container">Debbuging text.关于在1v1决斗中,哪一种武器最有价值,一直存在争议。关于特定属性的争论不断,例如击晕范围、i帧期间的攻击,或者施法能力。然而，它们都无法战胜
+关于在1v1决斗中,哪一武种器最有价值,一直存在争议。关于特定属性的争论不断,例如击晕范围、i帧期间的攻击,或者施法能力。然而，它们都无法战胜
+关于在1v1决斗中,哪一种武器最有价值,一直存在争议。关于特定属性的争论不断,例如击晕范围、i帧期间的攻击,或者施法能力。然而，它们都无法战胜
+关于在1v1决斗中,哪一种武器最有价值,一直存在争议。关于特定属性的争论不断,例如击晕范围、i帧期间的攻击,或者施法能力。然而，它们都无法战胜
+关于在1v1决斗中,哪一种武器最有价值,一直存在争议。关于特定属性的争论不断,例如击晕范围、i帧期间的攻击,或者施法能力。然而，它们都无法战胜
+关于在1v1决斗中,哪一种武器最有价值,一直存在争议。关于特定属性的争论不断,例如击晕范围、i帧期间的攻击,或者施法能力。然而，它们都无法战胜
+关于在1v1决斗中,哪一种武器最有价值,一直存在争议。关于特定属性的争论不断,例如击晕范围、i帧期间的攻击,或者施法能力。然而，它们都无法战胜
+关于在1v1决斗中,哪一种武器最有价值,一直存在争议。关于特定属性的争论不断,例如击晕范围、i帧期间的攻击,或者施法能力。然而，它们都无法战胜
+关于在1v1决斗中,哪一种武器最有价值,一直存在争议。关于特定属性的争论不断,例如击晕范围、i帧期间的攻击,或者施法能力。然而，它们都无法战胜
+关于在1v1决斗中,哪一种武器最有价值,一直存在争议。关于特定属性的争论不断,例如击晕范围、i帧期间的攻击,或者施法能力。然而，它们都无法战胜
+关于在1v1决斗中,哪一种武器最有价值,一直存在争议。关于特定属性的争论不断,例如击晕范围、i帧期间的攻击,或者施法能力。然而，它们都无法战胜
+ </p>
+
+
+<div class = "card">
+<p> 关于在1v1决斗中,哪一种武器最有价值,一直存在争议。关于特定属性的争论不断,例如击晕范围、i帧期间的攻击,或者施法能力。然而，它们都无法战胜
+
+</p>
+
+</div>
+
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+:root {
+  --backgroundcolor: #0F220E;
+  --textcolor: #ffffff; 
+  --white: #ffffff;
+  --black: #000000;
+  --imagesize: 75%;
+}
+
+.standarttheme {
+  background-color: var(--backgroundcolor);
+  color: var(--textcolor); 
+}
+
+p {
+  color: var(--textcolor);
+  text-align: justify;
+  line-height: 1.3;
+  word-wrap: break-word; 
+}
+
+header {
+  color: var(--textcolor);
+}
+
+ .text-container {
+      max-width: 45%; /* The text will occupy only the left half */
+      margin-right: 0;
+        margin-top: 0; 
+    }
+
+.card{
+float:right;
+    background-color:#ffffff;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.897);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 45vw; /* 50% of the viewport width */
+      height: 100vh; /* full height of the screen */
+     margin-top: 0;  /* Ensure there's no top margin */
+  padding: 10px;  /* Adjust the padding as needed */
+
+
+    p{
+        color:#000000;
+    }
+}
+
+
